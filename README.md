@@ -3,6 +3,7 @@
 Numeric map tiles for the [Prithvi-OpenET-Tower data portal](https://github.com/Hyunglok-Kim/prithvi-openet-portal): 30 m monthly
 evapotranspiration of the Korean Peninsula, 2013-04 to 2026-08, reduced to zoom 3–10
 so that it fits on GitHub Pages. The full set goes to zoom 12 (30 m).
+2 small areas (Cheorwon, Anmyeon) keep the native zoom 12 in the `*.fine.pmtiles` files; outside their outlines those tiles repeat zoom 10.
 
 One PMTiles file per month (`monthly/`) and per climatology layer (`clim/`). A tile is an 8-bit
 grayscale PNG that holds values, not colours: `value = DN × dn_step`, `DN 255 = no data`.
